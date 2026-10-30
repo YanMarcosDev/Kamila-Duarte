@@ -40,7 +40,7 @@ export function BioPage() {
       <div className="mt-8 flex w-full flex-col gap-3.5">
         <LinkButton
           href={siteConfig.links.telegram}
-          label="Entrar no Telegram"
+          label="Entrar no Close Privê"
           sublabel="Canal exclusivo"
           icon={TelegramIcon}
           tone="telegram"
@@ -59,7 +59,7 @@ export function BioPage() {
         style={{ animationDelay: "480ms", animationFillMode: "backwards" }}
         className="animate-fade-in mt-12 text-[0.7rem] tracking-wide text-muted-foreground/70"
       >
-        Conteúdo destinado exclusivamente para maiores de 18 anos.
+        Conteúdo exclusivo.
       </footer>
     </main>
   );
