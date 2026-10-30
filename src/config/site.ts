@@ -4,8 +4,7 @@
  */
 export const siteConfig = {
   name: "Kamila Duarte",
-  description:
-    "✨ Conteúdo exclusivo • Acesso privado",
+  description: "",
   /**
    * FOTO DE PERFIL — SUBSTITUA A URL ABAIXO PELA FOTO DEFINITIVA DA CRIADORA.
    * (é o único lugar onde a imagem é definida)

@@ -30,12 +30,14 @@ export function BioPage() {
       >
         {siteConfig.name}
       </h1>
-      <p
-        style={{ animationDelay: "140ms", animationFillMode: "backwards" }}
-        className="animate-fade-in mt-3 max-w-xs text-pretty text-sm leading-relaxed text-muted-foreground sm:max-w-sm"
-      >
-        {siteConfig.description}
-      </p>
+      {siteConfig.description ? (
+        <p
+          style={{ animationDelay: "140ms", animationFillMode: "backwards" }}
+          className="animate-fade-in mt-3 max-w-xs text-pretty text-sm leading-relaxed text-muted-foreground sm:max-w-sm"
+        >
+          {siteConfig.description}
+        </p>
+      ) : null}
 
       <div className="mt-8 flex w-full flex-col gap-3.5">
         <LinkButton
